@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
-[assembly: InternalsVisibleTo("Slapper.Tests")]
+[assembly: InternalsVisibleTo("SD.Slapper.Tests")]
 [assembly: InternalsVisibleTo("Slapper.Tests47")]
 namespace Slapper
 {

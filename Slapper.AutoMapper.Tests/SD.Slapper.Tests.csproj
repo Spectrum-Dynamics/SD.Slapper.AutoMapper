@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Slapper.AutoMapper\Slapper.csproj" />
+      <ProjectReference Include="..\Slapper.AutoMapper\SD.Slapper.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Slapper", "Slapper.AutoMapper\Slapper.csproj", "{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Slapper", "Slapper.AutoMapper\SD.Slapper.csproj", "{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Slapper.Tests", "Slapper.AutoMapper.Tests\Slapper.Tests.csproj", "{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Slapper.Tests", "Slapper.AutoMapper.Tests\SD.Slapper.Tests.csproj", "{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slapper.Tests47", "Slapper.AutoMapper.Tests47\Slapper.Tests47.csproj", "{DE044332-9D9D-48BA-B63D-72BB64E5DEE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Slapper.Strongname", "Slapper.AutoMapper.Strongname\SD.Slapper.Strongname.csproj", "{7651680C-FA49-4563-A298-F6930698C719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,7 +20,6 @@ Global
 		{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +28,9 @@ Global
 		{DE044332-9D9D-48BA-B63D-72BB64E5DEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE044332-9D9D-48BA-B63D-72BB64E5DEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE044332-9D9D-48BA-B63D-72BB64E5DEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7651680C-FA49-4563-A298-F6930698C719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7651680C-FA49-4563-A298-F6930698C719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7651680C-FA49-4563-A298-F6930698C719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

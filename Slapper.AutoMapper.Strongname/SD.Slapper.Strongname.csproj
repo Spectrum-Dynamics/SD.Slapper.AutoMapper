@@ -2,25 +2,35 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>Slapper.AutoMapper</PackageId>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <PackageId>SD.Slapper.AutoMapper.Strongname</PackageId>
         <Authors>Randy Burden &amp; contributors</Authors>
         <PackageProjectUrl>https://github.com/SlapperAutoMapper/Slapper.AutoMapper</PackageProjectUrl>
         <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/SlapperAutoMapper/Slapper.AutoMapper</RepositoryUrl>
         <Version>2.0.5</Version>
-        <TargetFrameworks>netstandard2.1;net47</TargetFrameworks>
+        <TargetFrameworks>netstandard2.1;net472</TargetFrameworks>
         <Product>Slapper.AutoMapper.Core</Product>
         <Copyright>Copyright (c) 2016, Randy Burden and contributors. All rights reserved.</Copyright>
         <Description>Slapper.AutoMapper is a mapping library that can convert dynamic data into static types and populate complex nested child objects.</Description>
         <PackageTags>Slapper.AutoMapper slapper automapper mapper map dynamic</PackageTags>
-        <PackageReleaseNotes>Version 2.0.5 release
--Memory improvement (See Issue #83 - Thanks wegnerb)</PackageReleaseNotes>
+        <PackageReleaseNotes>Version 2.0.5 release</PackageReleaseNotes>
         <PackageLicenseExpression></PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <RepositoryType>git</RepositoryType>
+        <SignAssembly>True</SignAssembly>
+        <DelaySign>True</DelaySign>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\Slapper.AutoMapper\CallContext.cs" Link="CallContext.cs" />
+      <Compile Include="..\Slapper.AutoMapper\Slapper.AutoMapper.Cache.cs" Link="Slapper.AutoMapper.Cache.cs" />
+      <Compile Include="..\Slapper.AutoMapper\Slapper.AutoMapper.Configuration.cs" Link="Slapper.AutoMapper.Configuration.cs" />
+      <Compile Include="..\Slapper.AutoMapper\Slapper.AutoMapper.cs" Link="Slapper.AutoMapper.cs" />
+      <Compile Include="..\Slapper.AutoMapper\Slapper.AutoMapper.InternalHelpers.cs" Link="Slapper.AutoMapper.InternalHelpers.cs" />
+      <Compile Include="..\Slapper.AutoMapper\Slapper.AutoMapper.Logging.cs" Link="Slapper.AutoMapper.Logging.cs" />
+    </ItemGroup>
 
     <ItemGroup>
       <None Include="..\LICENSE">

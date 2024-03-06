@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Slapper.Tests", "Slapper.AutoMapper.Tests\SD.Slapper.Tests.csproj", "{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slapper.Tests47", "Slapper.AutoMapper.Tests47\Slapper.Tests47.csproj", "{DE044332-9D9D-48BA-B63D-72BB64E5DEE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A3A6ABBF-8C42-4945-BB8B-804123E45B2D} = {A3A6ABBF-8C42-4945-BB8B-804123E45B2D}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SD.Slapper.Strongname", "Slapper.AutoMapper.Strongname\SD.Slapper.Strongname.csproj", "{7651680C-FA49-4563-A298-F6930698C719}"
 EndProject

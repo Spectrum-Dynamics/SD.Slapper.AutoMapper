@@ -19,6 +19,7 @@
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <RepositoryType>git</RepositoryType>
+        <DefineConstants>$(DefineConstants);NOT_SIGNED</DefineConstants>
     </PropertyGroup>
 
     <ItemGroup>

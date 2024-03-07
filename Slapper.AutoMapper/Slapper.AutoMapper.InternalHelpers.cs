@@ -7,9 +7,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
-//test only with not signed assembly
-//[assembly: InternalsVisibleTo("SD.Slapper.Tests, PublicKey=00")]
-//[assembly: InternalsVisibleTo("Slapper.Tests47, PublicKey=00")]
+#if NOT_SIGNED
+[assembly: InternalsVisibleTo("SD.Slapper.Tests")]
+[assembly: InternalsVisibleTo("Slapper.Tests47")]
+#endif
 namespace Slapper
 {
     public static partial class AutoMapper

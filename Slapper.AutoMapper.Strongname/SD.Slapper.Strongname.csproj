@@ -2,7 +2,6 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
         <PackageId>SD.Slapper.AutoMapper.Strongname</PackageId>
         <Authors>Randy Burden &amp; contributors</Authors>
         <PackageProjectUrl>https://github.com/SlapperAutoMapper/Slapper.AutoMapper</PackageProjectUrl>
@@ -28,6 +27,7 @@
     <SignAssembly>True</SignAssembly>
     <DelaySign>False</DelaySign>
     <AssemblyOriginatorKeyFile>$(PrivateKey)</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
     <ItemGroup>

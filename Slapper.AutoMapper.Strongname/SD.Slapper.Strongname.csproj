@@ -19,9 +19,16 @@
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <RepositoryType>git</RepositoryType>
+        <PrivateKey />
         <SignAssembly>True</SignAssembly>
         <DelaySign>True</DelaySign>
+        <AssemblyOriginatorKeyFile>..\..\SD.Dapper.Public.snk</AssemblyOriginatorKeyFile>
     </PropertyGroup>
+  <PropertyGroup Condition=" '$(PrivateKey)' != '' ">
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyFile>$(PrivateKey)</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
 
     <ItemGroup>
       <Compile Include="..\Slapper.AutoMapper\CallContext.cs" Link="CallContext.cs" />

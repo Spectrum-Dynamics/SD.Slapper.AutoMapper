@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
+        <!--<TargetFramework>netstandard2.1</TargetFramework>-->
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>SD.Slapper.AutoMapper</PackageId>
         <Authors>Randy Burden &amp; contributors</Authors>

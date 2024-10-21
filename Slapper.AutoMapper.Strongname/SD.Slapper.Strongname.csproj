@@ -4,16 +4,16 @@
         <!--<TargetFramework>netstandard2.1</TargetFramework>-->
         <PackageId>SD.Slapper.AutoMapper.Strongname</PackageId>
         <Authors>Randy Burden &amp; contributors</Authors>
-        <PackageProjectUrl>https://github.com/SlapperAutoMapper/Slapper.AutoMapper</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Spectrum-Dynamics/SD.Slapper.AutoMapper</PackageProjectUrl>
         <PackageLicenseUrl></PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/SlapperAutoMapper/Slapper.AutoMapper</RepositoryUrl>
-        <Version>2.0.5</Version>
+        <RepositoryUrl>https://github.com/Spectrum-Dynamics/SD.Slapper.AutoMapper</RepositoryUrl>
+        <Version>2.0.5-patch1</Version>
         <TargetFrameworks>netstandard2.1;net472</TargetFrameworks>
         <Product>Slapper.AutoMapper.Core</Product>
         <Copyright>Copyright (c) 2016, Randy Burden and contributors. All rights reserved.</Copyright>
         <Description>Slapper.AutoMapper is a mapping library that can convert dynamic data into static types and populate complex nested child objects.</Description>
         <PackageTags>Slapper.AutoMapper slapper automapper mapper map dynamic</PackageTags>
-        <PackageReleaseNotes>Version 2.0.5 release</PackageReleaseNotes>
+        <PackageReleaseNotes>Version 2.0.5 release+patch1</PackageReleaseNotes>
         <PackageLicenseExpression></PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>

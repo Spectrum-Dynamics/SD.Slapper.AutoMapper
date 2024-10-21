@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <!--<TargetFramework>netstandard2.1</TargetFramework>-->
         <PackageId>SD.Slapper.AutoMapper.Strongname</PackageId>
         <Authors>Randy Burden &amp; contributors</Authors>
         <PackageProjectUrl>https://github.com/Spectrum-Dynamics/SD.Slapper.AutoMapper</PackageProjectUrl>

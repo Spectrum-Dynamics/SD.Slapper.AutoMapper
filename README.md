@@ -1,11 +1,29 @@
-Slapper.AutoMapper
-=================
+# SD.Slapper.AutoMapper
 *Slap your data into submission.*
 
-Slapper.AutoMapper maps dynamic data to static types.
+> **Fork of [Slapper.AutoMapper](https://github.com/SlapperAutoMapper/Slapper.AutoMapper) with additional patches.**  
+> Maintained by [Spectrum Dynamics Medical](https://github.com/Spectrum-Dynamics).
 
-<a href="https://www.nuget.org/packages/Slapper.AutoMapper"><img src="https://img.shields.io/nuget/v/Slapper.AutoMapper.svg" alt="NuGet Version" /></a> 
-<a href="https://www.nuget.org/packages/Slapper.AutoMapper"><img src="https://img.shields.io/nuget/dt/Slapper.AutoMapper.svg" alt="NuGet Download Count" /></a>
+[![NuGet](https://img.shields.io/nuget/v/SD.Slapper.AutoMapper)](https://www.nuget.org/packages/SD.Slapper.AutoMapper)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/SD.Slapper.AutoMapper)](https://www.nuget.org/packages/SD.Slapper.AutoMapper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+### Target Frameworks
+
+| Package | Frameworks |
+|---|---|
+| `SD.Slapper.AutoMapper` | .NET Standard 2.1, .NET Framework 4.7.2 |
+| `SD.Slapper.AutoMapper.Strongname` | .NET Standard 2.1, .NET Framework 4.7.2 |
+
+### Installation
+
+```bash
+dotnet add package SD.Slapper.AutoMapper
+# or strong-named variant
+dotnet add package SD.Slapper.AutoMapper.Strongname
+```
+
+Slapper.AutoMapper maps dynamic data to static types.
 
 ### What is it? ###
 

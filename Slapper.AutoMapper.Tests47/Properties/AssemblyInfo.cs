@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClassLibrary1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Slapper.Tests47")]
+[assembly: AssemblyDescription("Tests for SD.Slapper.AutoMapper targeting .NET Framework 4.7.2")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClassLibrary1")]
-[assembly: AssemblyCopyright("Copyright © 2021")]
+[assembly: AssemblyCompany("Spectrum Dynamics Medical")]
+[assembly: AssemblyProduct("SD.Slapper.AutoMapper")]
+[assembly: AssemblyCopyright("Copyright © 2017-2026, Spectrum Dynamics Medical. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
